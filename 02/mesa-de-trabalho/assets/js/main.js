@@ -18,5 +18,5 @@ alert(`Muito obrigado ${nomeDoUsuario}, um de nossos consultores entrará em con
 
 console.log(`nome: ${nomeDoUsuario} telefone: ${telDoUsuario} aceita receber mensagem por WhatsApp: ${whatsapp}`);
 
-console.log("Grupo: Vinicius Evandro, Thalles Denner, Edmar, Taynan Vitor");
+console.log("Grupo: Pedro Oliveira, Vinicius Evandro, Thalles Denner, Edmar, Taynan Vitor");
 
