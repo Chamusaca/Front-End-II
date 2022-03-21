@@ -6,15 +6,17 @@ var formulario = document.querySelector("#formularioDeCadastro");
 formulario.addEventListener("submit", function (evento) {
 
     // Captura o valor do input
-    var telefoneSemTratamento = evento.target[0].value;
+    var item = evento.target.value;
 
     // Removi os espaços
-    var telefoneSemEspacos = telefoneSemTratamento.replace(/\s/g, "");
+    var itemSemEspacos = item.replace(/\D/g, "");
 
     // Removi os caracteres especiais e letras
-    var telefoneApenasNumeros = telefoneSemEspacos.replace(/\D/g, "");
+    //var itemSemNumeros = itemSemEspacos.replace(/\d/g, "");
 
     // Apresento o valor a partir de um popup alert()
-    alert(telefoneApenasNumeros);
+    alert(itemSemEspacos);
+    //alert(itemSemNumeros);
+    
     
 });

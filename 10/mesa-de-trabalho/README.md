@@ -1,6 +1,8 @@
 # Aula 10 - Mesa de trabalho
 
-A atividade consiste em devenvolver capturar e manipular os dados de uma formulário.
+# Grupo - Alexandre de Oliveira, Vinicius Evandro, Wellington Siqueira, Thalles Denner, Pedro Oliveira
+
+A atividade consiste em desenvolver, capturar e manipular os dados de uma formulário.
         
 ## Instruções
 
