@@ -1,3 +1,4 @@
+// Grupo - Alexandre de Oliveira, Vinicius Evandro, Wellington Siqueira, Thalles Denner, Pedro Oliveira
 
 // 1. Seleção do formulário
 var formulario = document.querySelector("#formularioDeCadastro");
