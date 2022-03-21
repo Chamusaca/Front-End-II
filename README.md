@@ -4,24 +4,35 @@
 
 ## Módulo 1: Bem-vindo e introdução ao Javascript em interfaces
 
-### Aula 1: Boas vindas
+### [Aula 1: Boas vindas](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/01)
 <small>21 de fevereiro 2022 - segunda-feira</small>
 
 Fornecer uma abordagem do que será apresentado no módulo e uma breve revisão dos principais tópicos do Javascript aplicado em interface web.
 
+**Assíncrona**
+
 - [x] Introdução a disciplina
 - [x] Origem do Javascript
+
+**Síncrona**
+
 - [x] DevTools: Console
 - [x] Integrando Javascript em um documento HTML
 
-### Aula 2: Introdução ao Javascript em interfaces
+### [Aula 2: Introdução ao Javascript em interfaces](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/02)
 <small>22 de fevereiro 2022 - terça-feira</small>
 
 Apresentar os recursos do Chrome Devtools a partir de uma implementação de funcionalidades com a linguagem Javascript.
 
-- `alert()`, `prompt()` e `confirm()`
-- `for...in`
-- `for...of`
+**Assíncrona**
+
+- [x] `for...in`
+- [x] `for...of`
+
+**Síncrona**
+
+- [x] `alert()`, `prompt()` e `confirm()`
+- [x] `if... else...` *Veremos com mais calma esse recurso na próxima aula, mas foi apresentada uma visão minimalista do recurso.
 
 <br>
 
@@ -29,39 +40,73 @@ Apresentar os recursos do Chrome Devtools a partir de uma implementação de fun
 
 O módulo é dedicado à manipulação de elementos HTML em um site.
 
-### Aula 3: Introdução ao DOM
+### [Aula 3: Introdução ao DOM](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/03)
 <small>23 de fevereiro 2022 - terça-feira</small>
 
 Compreender o DOM (Document Object Mode) para começar a manipular seus elementos.
 
-- [ ] Objeto Window
-- [ ] Objeto Document
-- [ ] Selecionando elementos
+**Assíncrona**
 
-### Aula 4: Modificar elementos com Javascript
+- [x] Objeto Window
+- [x] Objeto Document
+- [x] Selecionando elementos
+
+**Síncrona**
+
+- [x] Objeto Window
+- [x] Objeto Document
+- [x] Selecionando elementos
+- [x] Variáveis - *Apenas* `var`
+
+### [Aula 4: Modificar elementos com Javascript](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/04)
 <small>07 de março 2022 - segunda-feira</small>
 
 O conhecimento sobre manipulação do DOM é expandido, mas desta vez trabalhando com estilos dos elementos do documento.
 
-- [ ] Manipulando o DOM
-- [ ] Template literal
-- [ ] Propriedade style
-- [ ] Propriedade `classList`
+**Assíncrona**
 
-### Aula 5: Trabalhando com nós
+- [x] Manipulando o DOM
+- [x] Template literal
+- [x] Propriedade style
+- [x] Propriedade `classList`
+    - [x] add()
+    - [x] remove()
+    - [x] toggle()
+    - [x] contains()
+
+**Síncrona**
+
+- [x] Propriedade style
+- [x] Propriedade `classList`
+    - [x] add()
+    - [x] remove()
+    - [x] toggle()
+- [x] Condicionais `if`, `else if`, `else`
+
+### [Aula 5: Trabalhando com nós](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/05)
 <small>08 de março 2022 - terça-feira</small>
 
 Compreender o que são nós, quais recursos e como utilizá-los para manipular os nós.  
 
-- [ ] Nós
-    - [ ] Criar 
-    - [ ] Adicionar
-    - [ ] Remover
-- [ ] Manipulando atributos
-    - [ ] `getAttribute()`
-    - [ ] `setAttribute()`
-    - [ ] `hasAttribute()`
-    - [ ] `removeAttribute()`
+**Assíncrona**
+
+- [x] Nós
+    - [x] Criar 
+    - [x] Adicionar
+    - [x] Remover
+- [x] Manipulando atributos
+    - [x] `getAttribute()`
+    - [x] `setAttribute()`
+    - [x] `hasAttribute()`
+    - [x] `removeAttribute()`
+
+**Síncrona**
+
+- [x] Manipulando atributos
+    - [x] `getAttribute()`
+    - [x] `setAttribute()`
+    - [x] `hasAttribute()`
+    - [x] `removeAttribute()`
 
 <br>
 
@@ -69,26 +114,90 @@ Compreender o que são nós, quais recursos e como utilizá-los para manipular o
  
 Com base na interação do usuário, acione diversos recursos para gerar dinamismo a uma aplicação web.
 
-### Aula 6: Revisão + Introdução a eventos
+### [Aula 6: Revisão + Introdução a eventos](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/06)
 <small>09 de março 2022 - quarta-feira</small>
 
 Compreender a parte dinâmica do Javascript, introdução a programação reativa.
 
+**Revisamos:**
 
-### Aula 7: Eventos
+- [x] Objeto Window
+- [x] Objeto Document
+- [x] Selecionando elementos
+    - [x] `getElementById()`
+    - [x] `querySelector()`
+    - [x] `querySelectorAll()`
+    - [x] `getElementByClassName()`
+- [x] Nós
+    - [x] Criar 
+    - [x] Adicionar
+    - [x] Remover
+- [x] Manipulando atributos
+    - [x] `getAttribute()`
+    - [x] `setAttribute()`
+    - [x] `hasAttribute()`
+    - [x] `removeAttribute()`
+
+**Aprendemos:**
+
+- [x] `addEventListener()`
+    - [x] `Evento click`
+- [x] `target.onclick = function() {}`
+- [x] `Funções`
+    - [x] `() => {}`
+    - [x] `function() {}`
+
+
+### [Aula 7: Eventos](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/07)
 <small>14 de março 2022 - segunda-feira</small>
 
 Estudar como podemos acionar diferentes procedimentos com base nas interações que o usuário tem com os elementos da aplicação web.
 
-- [ ] Quais são os eventos?
-    - [ ] Eventos do mouse
-    - [ ] Eventos do teclado
-    - [ ] Eventos de tempo
+**Assíncrona**
 
-### Aula 8: Disparando eventos
+- [x] Quais são os eventos?
+    - [x] Eventos do mouse
+    - [x] Eventos do teclado
+    - [ ] Eventos de tempo - *Esse evento não foi apresentado no Playground*
+
+**Síncrona**
+
+- [x] Eventos do mouse
+    - [x] `click`
+    - [x] `dblclick`
+    - [x] `mouseover`
+    - [x] `mouseout`
+    - [ ] `mousemove` *Não foi apresentado em aula, apenas citado*
+- [x] Eventos do teclado
+    - [x] `keydown`
+    - [x] `keyup`
+    - [x] `keydown`
+    - [x] `keypress`
+
+### [Aula 8: Disparando eventos](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/08)
 <smal>15 de março 2022 - terça-feira</small>
 
 Eventos que disparam funções.
+
+**Revisado**
+
+- [x] `addEventListener()`
+    - [x] `Evento click`
+- [x] `target.onclick = function() {}`
+- [x] `Funções`
+    - [x] `() => {}`
+    - [x] `function() {}`
+- [x] Eventos do mouse
+    - [x] `click``
+    - [x] `dblclick`
+    - [x] `mouseover``
+    - [x] `mouseout``
+    - [ ] `mousemove` *Não foi apresentado em aula, apenas citado*
+- [x] Eventos do teclado
+    - [x] `keydown`
+    - [x] `keyup`
+    - [x] `keydown`
+    - [x] `keypress`
 
 <br>
 
@@ -96,14 +205,14 @@ Eventos que disparam funções.
 
 Tendo trabalhado com os elementos de formulário, chega hora de validar os dados com os recursos ensinados anteriormente.
 
-### Aula 9: Primeira entrega
+### [Aula 9: Primeira entrega](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/09)
 <smal>16 de março 2022 - quarta-feira</small>
 
 Revisão dos tópicos vistos e apresentação dos recursos do produto entregável (avaliação).
 
-- [ ] Método de entrega
-- [ ] Forma de avaliação
-- [ ] Requisitos de entrega
+- [x] Método de entrega
+- [x] Forma de avaliação
+- [x] Requisitos de entrega
 
 ### Aula 10: Formulários I
 <small>21 de março 2022 - segunda-feira</small>
