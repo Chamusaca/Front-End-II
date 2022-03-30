@@ -214,49 +214,76 @@ Revisão dos tópicos vistos e apresentação dos recursos do produto entregáve
 - [x] Forma de avaliação
 - [x] Requisitos de entrega
 
-### Aula 10: Formulários I
+### [Aula 10: Formulários I](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/10)
 <small>21 de março 2022 - segunda-feira</small>
 
 Como capturar os elementos de um formulário e manipular seus valores.
 
-- [ ] Anteriormente em Programação Imperativa
-    - [ ] Objetos literais
-    - [ ] Métodos de strings
-- [ ] Obtendo dados de um formulário
-    - [ ] Label
-    - [ ] Input (value)
+**Assíncrona**
+
+- [x] Anteriormente em Programação Imperativa
+    - [x] Objetos literais
+    - [x] Métodos de strings
+- [-] Obtendo dados de um formulário
+    - [x] Label
+    - [x] Input (value)
     - [ ] Textarea
     - [ ] Select
     - [ ] Radio button
     - [ ] Check box
-- [ ] Outros métodos de strings
-    - [ ] `trim()`
-    - [ ] `toUpperCase()`
-    - [ ] `toLowerCase()`
+- [-] Outros métodos de strings
+    - [x] `trim()`
+    - [x] `toUpperCase()`
+    - [x] `toLowerCase()`
+    - [x] `concat()`
+    - [x] `replace()`
+
+**Síncrona**
+
+- [-] Obtendo dados de um formulário
+    - [x] Label
+    - [x] Input (value)
+    - [ ] Textarea
+    - [ ] Select
+    - [ ] Radio button
+    - [ ] Check box
+- [-] Outros métodos de strings
+    - [x] `trim()`
+    - [x] `toUpperCase()`
+    - [x] `toLowerCase()`
     - [ ] `concat()`
     - [ ] `replace()`
+- [x] Expressões regulares
 
-### Aula 11: Formulários II - Como validar?
+
+### [Aula 11: Formulários II - Como validar?](https://gitlab.com/wssantanna/ctd-frontii/-/tree/main/11)
 <small>22 de março 2022 - terça-feira</small>
 
 Compreenda quais eventos podem ser utilizados na interação do usuário e enviar respostas visuais para validar os dados inseridos.
 
-- [ ] Eventos de formulário
-    - [ ] `focus()`
-    - [ ] `blur()`
-    - [ ] `change()`
-    - [ ] `submit()`
-    - [ ] `preventDefault()`
-- [ ] Validação do cliente
+**Assíncrona**
+
 - [ ] Validação assíncrona
     - [ ] `setTimeOut()` para imitar “promises”
-- [ ] Objeto Location
-    - [ ] `href`
-    - [ ] `reload()`
-    - [ ] `search()`
-    - [ ] `URLSearchParams`
-    - [ ] `query.has()`
-    - [ ] `query.get()`
+- [x] Objeto Location
+    - [x] `href`
+    - [x] `reload()`
+    - [x] `search()`
+    - [x] `URLSearchParams`
+    - [x] `query.has()`
+    - [x] `query.get()`
+
+**Síncrona**
+
+- [x] Eventos de formulário
+    - [x] `focus()`
+    - [x] `blur()`
+    - [x] `change()`
+    - [x] `submit()`
+    - [x] `preventDefault()`
+- [x] Validação do cliente
+- [x] Expressões regulares
+
 
 ### Aula 12: JSON e storage
 <small>23 de março 2022 - quarta-feira</small>
